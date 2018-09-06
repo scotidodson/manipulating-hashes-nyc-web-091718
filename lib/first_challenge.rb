@@ -14,10 +14,6 @@ def first_challenge
   }
 
   contacts["Freddy Mercury"].delete_if("strawberry")
-     end
-   end
- end
-
   contacts
 end
 
