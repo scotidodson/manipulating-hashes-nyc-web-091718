@@ -16,7 +16,10 @@ def first_challenge
   contacts.each do |person, data|
     data.each do |type, info|
       if type == favorite_icecream_flavors
-        include?("strawberry")
+       favorite_icecream_flavors.delete_if("strawberry")
+     end
+   end
+ end
 
   contacts
 end
