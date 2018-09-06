@@ -16,9 +16,3 @@ def second_challenge
   flat_list
 end
 
- 
-holiday_supplies.each do |key, value|
-  value.each do |key2, value2|
-    supplies << value2
-  end
-end
