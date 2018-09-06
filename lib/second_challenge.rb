@@ -8,9 +8,7 @@ def second_challenge
 
   flat_list = []
 
-  flat_list << groceries.values_at[:dairy]
-  flat_list << groceries.values_at[:vegetable]
-  flat_list << groceries.values_at[:meat]
-  flat_list << groceries.values_at[:grains]
+  flat_list << groceries.values
+
   flat_list
 end
