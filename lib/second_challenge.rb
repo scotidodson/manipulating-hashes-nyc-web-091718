@@ -16,9 +16,6 @@ def second_challenge
 end
 
 more_nested_array = [
-  [
-    "hello", 
-      ["world", "new york"]
-      ], 
-      ["love", "ruby"]
+  ["hello", ["world", "new york"]], 
+  ["love", "ruby"]
       ]
