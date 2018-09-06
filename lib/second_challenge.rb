@@ -10,7 +10,9 @@ def second_challenge
   flat_list = []
   
   nested_list.each do |item|
-    flat_list << item
+    item.each do |deeper_item|
+      flat_list << deeper_item
+    end
   end
   flat_list
 end
