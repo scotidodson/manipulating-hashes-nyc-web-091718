@@ -13,10 +13,11 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each do |person, data|
+    data.each do |type, info|
+      if type == favorite_icecream_flavors
+        include?("strawberry")
 
-
-  #remember to return your newly altered contacts hash!
   contacts
 end
 
