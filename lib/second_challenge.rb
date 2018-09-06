@@ -9,6 +9,7 @@ def second_challenge
   flat_list = []
   groceries.each do |type, item|
     flat_list << type.values 
+  end
 
   flat_list
 end
