@@ -17,7 +17,3 @@ def second_challenge
   flat_list
 end
 
-more_nested_array = [
-  ["hello", ["world", "new york"]], 
-  ["love", "ruby"]
-      ]
