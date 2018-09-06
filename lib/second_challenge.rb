@@ -6,13 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  flat_list = []
-  section_list = []
-  section_list = groceries.keys
-  
-    end
-  end
-
-  flat_list
+  groceries.values 
 end
 
