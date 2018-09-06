@@ -6,8 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
-  
-
+  flat_list = []
+  flat_list << groceries.values
+  return flat_list
 end
