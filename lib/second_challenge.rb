@@ -6,8 +6,14 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
+  nested_list = groceries.values 
+  flat_list = []
   
-
+  nested_list.each do |item|
+    item.each do |deeper_item|
+      flat_list << deeper_item
+    end
+  end
+  flat_list
 end
+
